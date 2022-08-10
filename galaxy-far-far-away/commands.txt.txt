@@ -1,0 +1,132 @@
+setup
+
+1. mkdir galaxy-far-far-away (to create the directoty galaxy-far-far-away)
+
+2. touch commands.txt (to ceate the file commands.txt)
+
+part 1:
+
+3. create death_star directory using mkdir death_star
+
+4. create 3 txt files  using touch
+
+   touch darth_vader.txt
+   touch princess_lelia.txt
+   touch storm_trooper.txt
+
+5. cd ..(will go back one directory and now pointing to galaxy-f-f-away)
+
+6. mkdir tatooine
+
+7. cd tatooine/
+ 
+8. create 2 txt files using touch
+  
+   touch luke.txt ben_kenobi.txt
+
+9. create millenium_falcon using mkdir millenium_falcon
+
+10. cd millenium_falcon/
+
+11. create 2 txt files
+   
+    touch han_solo.txt chewbaca.txt
+
+
+part 2:
+
+
+12. cd ..
+
+13. mv ben_kenobi.txt obi_wan.txt(renaming ben_kenobi to obi_wan.txt)
+
+
+part 3:
+
+14. cd ../death_star/
+
+15. cp storm_trooper.txt ../tatooline/ (copy storm_trooper from death_star to tatooine directory)
+
+part 4:
+
+16. cd ../tatooine/
+
+17. mv luke.txt obi_wan.txt millenium_falcon/  (move luke and obi_wan into mill_falcon)
+
+18. mv millenium_falcon/ ../  (move mill_fal out of tatooine and put in gal-f-f-a)
+
+19. mv millenium_falcon/ death_star/  (move mill_fal into death_star)
+
+20. cd death_star
+
+21. mv princess_lelia.txt millenium_falcon  (move princess to mill_fal)
+
+part 5:
+
+22. cd millenium_falcon/
+
+23. rm obi_wan.txt  (remove obi_wan.txt) 
+
+part 6:
+
+24. cd ../ ../
+
+25. mkdir yavin_4  (creating directort yavin_4 in gal-f-f-a)
+
+26. cd yavin_4
+
+27. mv ../death_star/millenium_falcon/ .  (moving mill_fal out of death_star and into yavin_4)
+
+28. mkdir x_wing  (making dir x_wing in yavin_4)
+
+29. mv millenium_falcon/princess_lelia.txt .  (moving princess to yavin_4)
+
+30. mv millenium_falcon/luke.txt x_wing/  (moving luke to x_wing)
+
+31. mv millenium_falcon/ ../  (moving mill_fal out of yavin and put into gal-f-f-a)
+
+32. mv x_wing/ ../  (moving x_wing out of yavin and put into gal-f-f-a)
+
+33. cd ../death_star/
+
+34. mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3  (making dir 1,2,3 in death_star)
+
+35. mv darth_vader.txt tie_fighter_1/  (move darth_vader into tie_fighter_1)
+
+36. cp storm_trooper.txt tie_fighter_2/  (copying storm from death star into tie_2)
+
+37. cp storm_trooper.txt tie_fighter_3/  (copying storm from death_star into tie_3)
+
+38. mv tie_fighter_* ../  (moving all ties out of death_star into gal-f-f-a)
+
+part 7:
+
+39. cd ..
+
+40. rm -r tie_fighter_2 tie_fighter_3  (removing 2,3 directories)
+
+part 8:
+
+41. cd x_wing/
+
+42. touch the_force.txt
+
+43. cd ..
+
+44. rm -r death_star/  (destroying death_star)
+
+45. mv x_wing/ yavin_4/  (moving x_wing to yavin_4)
+
+46. mv millenium_falcon/ yavin_4/  (moving mill_fal into yavin_4)  
+
+
+
+
+
+
+
+
+
+
+ 
+
