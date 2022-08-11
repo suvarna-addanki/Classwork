@@ -1,9 +1,6 @@
-//bad! (not really) (hoisting)
+//(hoisting)
 //var age;
-
-//good!
 //let age;
-
 // constant
 //const age = 8;
 
@@ -14,18 +11,8 @@
 
 //STrings
 //const name = 'shakespeare: "to be or not to be" '
-//const name2 = 'jade'
-//const name3 = 'regg "frhgih" '
-
-//BOOLEAN
-//const employee = true;
-
-//UNDEFINED
-//const example = undefined;
-
-//NULL
-//const example2 = null;
-
+//const name2 = 'Suv'
+//const name3 = 'regg "frhgih"
 //STRING OPERATOR
 //let firstName = "Bob"
 //let lastName = "The builder"
@@ -74,7 +61,7 @@
 
 //console.log(x>10 && y>1)
 
-//EXERCISE 1
+//EXERCISE 1 finding sum
 
 /*
 let number1 = 10;
@@ -83,14 +70,20 @@ let number2 = 12;
 
 let sum = number1 + number2;
 console.log(sum)
+*/
 
 //EXERCISE 2
+/*
+let number3 = 5;
 
-let number3 = 25;
+let number4 = 18;
 
-console.log(sum>number3)
+let difference = number3 - number4
 
-//Exercise 3
+console.log(difference)
+
+//Exercise 3 finding average
+/*
 let a = 1;
 let b = 2;
 let c = 3;
@@ -108,7 +101,7 @@ console.log(average2);
 average3 = (average1 + average2)/2
 console.log(average3)
 
-//EXERCISE 4
+//EXERCISE 4 finding average
 let num1 = 4;
 let num2 = 10;
 let num3 = 22;
@@ -131,12 +124,11 @@ let box3
 box3 = box1;
 box1 = box2;
 box2 = box3;
-
 console.log(box1, box2)
 
 */
 
-//Exercise  1
+//Exercise  6 checking num is +ve or-ve
 
 /*let num = 3;
 
@@ -151,67 +143,83 @@ if (num > 0)
 
     }
     */
-    //EXERCISE 2
+//EXERCISE 7 user access to adult site
 
-    /*
-    let age = 20;
-
-    if (age > 18)
-      {
+/*
+let age = 20;
+if (age > 18)
+    {
         console.log("Welcome to the adult site")
     
-      }else 
+    }else 
       {
         console.log("access denied. you need to be 18+ to enter the site")
       } 
       */
 
-      // Exercise
+      
+// Exercise with nested if/else to check +ve/-ve numbers && > or < number 100
 
-      /*let num = 53;
-
-      if(num >0 && num > 100)
-       {
-        console.log("num is positive and greater than 100")
-
-       }
-        elseif(num >0 && num < 100)
-        {
-            console.log("num is positive but lessthan 100")
-        }else
-        
-        {
-        
-            console.log("num is negative")
-
+/*let num = 54;
+let output;
+    if (num >= 0 && num > 100) {
+        output = "Num is positive and greater than 100";
+        } else if (num >= 0 && num < 100) {
+            output = "Num is positive and less than 100";
+        } else {
+            output = "Num is Negative";
         }
-        */
+    console.log(output);
+        
+//Exercise for checking  letter grades
 
-        //Exercise 1 (switch statement)
-
-        let letter = "B";
-
-        switch (letter){
-            case 1:
-                if(letter == A )
-                {
-                    console.log("vowel");
-
-                }
-            case 2:
-                if(letter == B)
-                {
-                    console.log("consonant")
-
-                }
-            case 3:
-                if(letter ==C)
-                {
-                    console.log("consonant")
-                }    
-        break;
-
+/*
+let grade = 94;
+if (grade >= 55) {
+    if (grade >= 90) {
+        console.log('your grade is A');
+    } else if (grade >= 80) {
+         console.log('your grade is B');
+    } else if (grade >= 70) {
+            console.log('your grade is C');
+    } else {
+         console.log('your grade is D');
         }
+    } else {
+            console.log('Failed');
+    }
+
+//Exercise 1 (switch statement checking for vowel/consonant)
+
+    /*
+    let letter = "A";
+    switch (letter){
+        case "A":
+        case "E":
+        case "I":
+        case "O":
+        case "U":
+            console.log("this letter is a vowel")
+    break;
+    default:
+        console.log("this letter is a consonant")
+    }
+    */
+
+//Exercise (ternary operators) checking if num is +ve/-ve/is equal to zero
+/*
+let number = 0;
+let result =  number > 0 ? 'positive' : number == 0 ? 'zero' : 'negative';
+console.log(result);
+*/
+
+//Exercise (ternary operators) checking if num is odd or even
+/*
+let number = 46;
+let output = number % 2 === 0 ? "even" : "odd";
+console.log(output);
+*/
+
         
         
 
