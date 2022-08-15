@@ -117,12 +117,13 @@ while (integer1 <100){
 // }
 // console.log(output)
 
-// //exercise 3                            
+//exercise 3                            
 // let integer = 0;                         
 // while (integer < 20){                    
 //     if (integer %2 ==0){
 //         console.log(integer*3)
-//     }integer ++
+//     }
+//     integer++
 // }
 
 
@@ -153,3 +154,101 @@ while (integer1 <100){
 //     }k++
 
 // }
+
+//exercise large deno
+// var balAmount = 72.17;
+// var numberof50bills = 0;
+// var numberof20bills = 0;
+// var numberof10bills = 0;
+// var numberof5bills = 0;
+// var numberof1bills = 0;
+
+// while(balAmount > 50)
+// {
+//     balAmount = balAmount - 50;
+//     numberof50bills++;
+// }
+// while(balAmount > 20)
+// {
+//     balAmount = balAmount - 20;
+//     numberof20bills++;
+// }
+// while(balAmount > 10)
+// {
+//     balAmount = balAmount - 10;
+//     numberof10bills++;
+// }
+// while(balAmount > 5)
+//  {
+//      balAmount = balAmount - 5
+//      numberof5bills++;
+//  }
+//  while(balAmount > 1)
+//  {
+//      balAmount = balAmount - 1;
+//      numberof1bills++;
+//  }
+//  console.log(numberof50bills + numberof20bills + numberof10bills + numberof5bills + numberof1bills)
+
+//exercise for printing 10, 30, 50, 70, 90, 20, 40, 60, 80, 100
+// var i = 0;
+// while(i < 100){
+//     if(i % 10 ==1 || i % 10 == 3 || i % 10 == 5 || i % 10 == 7 || i % 10 == 9)
+//         console.log(i)
+//      else (i % 10 ==2 || i % 10 == 4 || i % 10 == 6 || i % 10 == 8 || i % 10 == 10)
+//         console.log(i)
+// }i++
+// console.log(i)
+
+// same exercise differently
+// var num = 10;
+// a = num % 10;
+// switch(a)
+//     {
+        
+//         case 1:
+//         case 3:
+//         case 5:
+//         case 7:
+//         case 9:
+//             console.log(num);
+        
+//         case 2:
+//         case 4:
+//         case 6:
+//         case 8:
+//         case 10:
+//             console.log(num)
+//         break;            
+//     }
+//same ex differently fir printing 10,30,50,70,90,20,40,60,80,100
+// let num = 10;
+// while(num <= 100){
+//     console.log(num)
+//     num += 20
+//     if(num===90){
+//         console.log(num)
+//         num = 20
+//     }
+// }
+
+
+//prime numbers
+// let num = 0;
+// while (num < 20){
+//     if(num == 1){
+//         console.log(num +=1)
+//     } else if(num == 2){
+//         console.log(num)
+//     } else if(num == 3){
+//         console.log(num)
+//     }
+//     if(num %2!= 0 && num %3!=0){
+//         console.log(num)
+//     }
+//     num++
+//     }
+
+// nested for loop exercise
+// i for row and j for column
+//}
