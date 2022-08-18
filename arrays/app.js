@@ -56,22 +56,22 @@
 
 //exercise 3 to check vowel or consonant using array and if else
 
-// let vowels =['a','e','i','o','u']
-// let any;
-// const isCharAVowel = function(any)
-//     {
-//     if ((any == vowels[0])|| (any == vowels[1]) || (any == vowels[2]) || (any == vowels[3])
-//             || (any == vowels[4]))
-//        { 
-//             return true ;
-//        }
-//     else
-//         {
-//             return false; 
-//         }
+let vowels =['a','e','i','o','u']
+let any;
+const isCharAVowel = function(any)
+    {
+    if ((any == vowels[0])|| (any == vowels[1]) || (any == vowels[2]) || (any == vowels[3])
+            || (any == vowels[4]))
+       { 
+            return true ;
+       }
+    else
+        {
+            return false; 
+        }
     
-//     }
-//     console.log(isCharAVowel('b'))
+    }
+    console.log(isCharAVowel('A'))
 
 
 // exercise 3 to check vowel or consonant using arrays, if/else and .include method    
@@ -114,7 +114,7 @@ function numbersToBeMultiplied (multiplyArray){
 numbersToBeMultiplied(multiplyArray)
 */
 
-//exercise 6 returns the no.of arguments passed to the function when called
+//exercise 6 returns the no.of arguments passed to the function when called(you can also  use  rest parameters to pass multiple parameters at a time)
 /*let numArgs = function(parameter1, parameter2){
     let count = arguments.length
     console.log(count);
@@ -171,8 +171,23 @@ function findLengthOfLongestWord(str) {
   }
   console.log(findLengthOfLongestWord("Excited for next week!"))
   */
+ function longestStringInArray(stringArray){
+    let highest = 0;
+    for(let i = 0; i < stringArray.length; i++){
+        if(stringArray[i].length>highest){
+            highest = stringArray[i].length
+        }
+    }
+    return highest
+ }
+ console.log(longestStringInArray(['sun', 'moon', 'neptune']))
 
-//exercise 9
+//exercise 9 that takes an array of strings and ar
+
+//function stringsLongerThan(arr, number){
+  //  let number = 
+    //for (let i = 0; i <arr.length; i++)
+//}
 
 
 
