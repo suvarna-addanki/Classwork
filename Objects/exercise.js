@@ -1,3 +1,4 @@
+
 //exercise to create a function that takes a string as an arguent and returns an object that keeps count of the occurences of each character
 
 /*let word 
@@ -181,3 +182,4 @@ const makeChange = function(payment, shirt) {
   
 console.log(makeChange(50, 15.83))
 */
+

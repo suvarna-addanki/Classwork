@@ -1,4 +1,5 @@
 
+
 //static methods and properties
 //There is only one governor in the state.add static methods and properties you would expect a governor to have
 //log the properties and test the methods(dont instantiate)
@@ -150,11 +151,6 @@ stephin.withdraw(4)
 
 
 
-
-
-
-
-  
 
 
 

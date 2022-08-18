@@ -1,3 +1,4 @@
+
 //exercise cat
 //give cat atleast 3 properties and 3 methods
 //create 2 instances of the class(two cats)
@@ -87,4 +88,3 @@ for(j = 0; j < blackPearl.length;  j++){
     }
 
     console.log(freighter)
-*/

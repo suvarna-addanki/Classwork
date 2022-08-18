@@ -1,3 +1,4 @@
+
 //object literal
 //OOP- object oriented programming
 
@@ -145,4 +146,4 @@
 // etc ...
 
 // use case
-// given an object and not know its properties and need to access that information
+
