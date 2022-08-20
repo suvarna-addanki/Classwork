@@ -88,3 +88,4 @@ for(j = 0; j < blackPearl.length;  j++){
     }
 
     console.log(freighter)
+*/
