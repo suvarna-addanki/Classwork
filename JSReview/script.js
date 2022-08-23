@@ -344,6 +344,147 @@ for(let n = 1; n < 101; n++){
 // }
 // console.log(isVowel('i'))
 
+//E.getTwoLengths
+// function getTwoLengths(string1, string2){
+//     let lengthOfArr = [string1.length,string2.length]
+//     return lengthOfArr
+// }
+// console.log(getTwoLengths('hank','Hippopopalous'))
+
+//F.getMultipleLengths
+// function getMultipleLengths(arrOfStrings){
+//     let lengthOfStringsArray = [];
+//     for(i = 0; i < arrOfStrings.length ; i++){
+//         lengthOfStringsArray.push(arrOfStrings[i].length)
+//     }
+//     return lengthOfStringsArray
+// }
+// console.log(getMultipleLengths(["hello", "what", "is", "up","dude"]))
+
+// //G.maxOfThree
+// function maxOfThree(num1, num2, num3){
+//     if(num1 >= num2){
+//         if(num1 >= num3){
+//             return num1;
+//         }else{
+//             return num3
+//         }
+//     }else {
+//         if(num2 >= num3){
+//             return num2;
+//         }else {
+//             return num3
+//         }
+//     }
+
+// }
+// console.log(maxOfThree(8,8,34))
+
+//H.printLongestWord
+// function printLongestWord(arrOfStrings){
+//     let longest = arrOfStrings[0];
+//     for (let i = 0; i < arrOfStrings.length; i++){
+//         if(longest.length == arrOfStrings[i].length){
+//             continue;
+//         }else if(longest.length < arrOfStrings[i].length)
+//             longest = arrOfStrings[i]
+//     }
+//     return longest;
+// }
+// console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big"]))
+
+//OBJECTS
+// //A.Make A User Object
+
+// const user = {
+//     name: "Suvarna",
+//     email: "abcd@gmail.com",
+//     age: 33,
+//     purchased: []
+
+// };
+
+// //B.Update the user
+// user.email = 'xyz@gmail.com'
+// user.age = ++user.age
+
+// //C.Adding Keys And Values
+// user.location =  'Charlotte'
+
+// //D.Shopaholic!
+// user.purchased.push("carbohydrates")
+// user.purchased.push('peace of mind')
+// user.purchased.push('Merino jodhpurs')
+
+// console.log(user.purchased[2])
+
+// //E.Object within object
+// user.friend = {
+//     name: "Grace Hopper",
+//     age: 85,
+//     location: 'New York',
+//     purchased: []
+// }
+// console.log(user.friend.name)
+// console.log(user.friend.location)
+// user.friend.age = 55
+// console.log(user.friend)
+// user.friend.purchased.push("The One Ring", "A Latte")
+// console.log(user.friend)
+// console.log(user.friend.purchased[1])
+
+// //F.Loops
+// for(i = 0; i< user.purchased.length; i++){
+//     console.log(user.purchased[i])
+// }
+// for(j = 0; j < user.friend.purchased.length; j++){
+//     console.log(user.friend.purchased[j])
+// }
+
+// //G.Functions can operate on objects
+// //1.
+// function updateUser(){
+//     user.age++;
+//     user.name.toUpperCase()
+// }
+// function oldAndLoud(person){
+//     user.age++;
+//     user.name.toUpperCase()
+// }
+// oldAndLoud(user)
+// console.log(user)
+
+//Hungry for more
+// Cat Combinator
+
+//1.Mama Cat
+// const cat1 = {
+//     name: 'Emily',
+//     breed: 'abc',
+//     age: 3
+// }
+// console.log(cat1.age)
+// console.log(cat1.breed)
+
+// //2.Papa Cat
+// const cat2 = {
+//     name: 'Bob',
+//     breed: 'xyz',
+//     age: 5
+// }
+
+// const combineCats = (mama, papa) => {
+//     let newCat = {
+//         name: mama.name + papa.name,
+//         age: 1,
+//         breed: mama.breed + '-' + papa.breed
+//     }
+//     return newCat;
+// }
+//  console.log(combineCats(cat1, cat2));
+
+// console.log(combineCats(combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)), combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2))))
+
 
 
 
