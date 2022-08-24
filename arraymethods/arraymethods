@@ -1,0 +1,50 @@
+ const nums = [1,2,3,4,5,6,7,8,9,10,0]
+// let filteredArr = nums.filter(element => element < 4)
+// console.log(filteredArr)
+
+// // function myCallBack(element){
+// //     if(element < 4){
+// //         return element
+// //     }else {
+// //         return
+// //     }
+// // }
+
+ const panagram = ['The', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
+// let result = panagram.filter(word => word.length % 2 == 0)
+// console.log(result)
+
+//find array method
+
+// let foundElement = nums.find((element) => element % 5 ===0)  //returns the first element that satisfies the condition
+// console.log(foundElement)
+
+// let long = panagram.find((word) => word.length > 5) //output is undefined because the condition did not satisfy at all(meaning none of the words are greater than 5)
+// console.log(long)
+
+//find index method
+
+// let divBy3 = nums.findIndex((element) => element % 3 === 0)
+// console.log(divBy3)
+
+// let char2Long = panagram.findIndex((word) => word.length < 2)
+// console.log(char2Long)
+
+//for each method does not have any return value thus we dont have to store it in a variable
+//this will log every value multiplied by 3
+//nums.forEach((element) => console.log(element * 3))
+
+//panagram.forEach((word) => console.log(word + '!'))
+
+let multiplyBy100 = nums.map((element) => element * 100)
+console.log(multiplyBy100)
+
+let biggerCase = panagram.map((word) => word.toUpperCase())
+
+console.log(biggerCase)
+
+let divBy7 = nums.some((element) => element % 7 === 0)
+console.log(divBy7)
+
+let aInsideWord = panagram.some((word) => word.includes('a'))
+console.log(aInsideWord)
