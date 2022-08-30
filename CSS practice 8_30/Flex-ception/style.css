@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.large-box{
+    height: 150px;
+    width: 100px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-around;
+
+
+
+}
+
+.middle-box{
+    height: 60px;
+    width: 60px;
+    background-color:black;
+    outline: purple 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+
+}
+
+.little-box{
+    height: 5px;
+    width: 2px;
+    background-color: palevioletred;
+    outline: purple 1px solid;
+
+
+}
+
+
