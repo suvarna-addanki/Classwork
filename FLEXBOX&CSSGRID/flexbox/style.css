@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    font-family: Helvetica ;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;  /*default*/
+    justify-content: flex-start; /*default*/
+    height: 50px;
+    background-color: #a2Cbb6;
+    font-size: 20px;
+    /* top, right, and bottom, left*/
+    margin: 10px;
+    color: #f3dba8;
+    justify-content: flex;
+    
+}
+div{
+    padding: 13px  /* to give gap between menu items
+    /*outline: 2px solid brown; */
+}
+
+nav > div:last-child{
+    margin-left: auto;
+}

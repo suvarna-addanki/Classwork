@@ -1,0 +1,126 @@
+body {
+    margin: 10;
+    background-color: white;
+    height: 100vh;
+    color: white;
+}
+#container {
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    align-items: left;
+}
+
+.item {
+    
+    border: 4px solid white;
+}
+
+/*
+.item:nth-child(even) {
+    background-color: rgb(56, 55, 53); 
+}
+ */
+.piston-1 {
+    background-color: red;
+    height: 100px;
+    width: 100px;    
+    transition: width 1s ease-in-out ;
+}
+
+.piston-2 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    transition: width 1s ease-in-out 2s ;
+    
+}
+
+.piston-1:hover {
+    width: 300px
+}
+
+.piston-1:hover ~ .piston-2{
+    width: 300px
+}
+
+/*FORTUNE TELLER */
+#container-1 {
+    
+    margin: 500px;
+    margin-bottom:-500px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    
+}
+
+.Fortune-1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    transform-origin: top left;
+    
+}
+
+.Fortune-2{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    transform-origin: top right;
+}
+
+.Fortune-3{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    transform-origin: top left;
+}
+
+.Fortune-4{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    transform-origin: top right
+}
+
+.message{
+
+    position: absolute;
+    z-index: -1; 
+    font-size: 25px; 
+
+}
+
+#container-1 > div{
+    transition: transform 2s ease-in-out;
+    /* z-index: 1;
+    position: relative; */
+}
+
+.Fortune-1:hover{
+    
+    transform: rotate(90deg);
+}
+
+.Fortune-3:hover{
+
+    transform: rotate(90deg);
+}
+
+.Fortune-2:hover{
+    transform: rotate(-90deg);
+}
+
+.Fortune-4:hover{
+    transform: rotate(-90deg)
+}
+    
+
+
+
+
+
+
